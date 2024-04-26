@@ -1,0 +1,29 @@
+@charset "UTF-8";
+body{
+	min-height: 100vh;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+#container {
+	max-width: 700px;
+	background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    margin: auto;
+    justify-content: center;
+}
+
+h3{
+	font-weight: 600;
+	font-family: sans-serif;
+	
+}
+td{
+	font-family: sans-serif;
+	text-align: center;
+}
+button{
+	font-weight: 600;
+	font-family: sans-serif;
+	font-size: 18px;
+	background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Book Details</title>
+<link rel="stylesheet" href="book.css">
+</head>
+<body>
+<br><br><br>
+    <div id="container">
+        <form action="addBook" method="post">
+        <h2 class="title">Book Management System</h2>
+        <div class="admin">
+            <div id="text">
+                <span>Enter Book Details</span>
+            </div>
+            <div id="box">
+                <span>BookCode <span style="color: red;">*</span></span>
+                <input type="text" placeholder="Enter BookCode" name="bcode" required>
+            </div>
+            <div id="box">
+                <span>BookName<span style="color: red;">*</span> </span>
+                <input type="text" placeholder="Enter Bookname" name="bname" required>
+            </div>
+            <div id="box">
+                <span>Book Author Name<span style="color: red;">*</span> </span>
+                <input type="text" placeholder="Enter Author Name" name="bauthor" required>
+            </div>
+            <div id="box">
+                <span>Book Price<span style="color: red;">*</span> </span>
+                <input type="text" placeholder="Enter Book Price" name="bprice" required>
+            </div>
+            <div id="box">
+                <span>Quantity<span style="color: red;">*</span> </span>
+                <input type="text" placeholder="Enter Quantity" name="bqty" required>
+            </div>
+            <div id="submit">
+                <input type="submit" value="AddBookDetails">
+            </div>
+        </div>
+    </form>
+    </div>
+</body>
+</html>
